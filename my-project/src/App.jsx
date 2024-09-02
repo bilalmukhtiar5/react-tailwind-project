@@ -4,6 +4,7 @@ import Prenavbar from './components/Prenavbar'
 import Home from './pages/Home'
 import Carousel from './components/Carousel'
 import HomeCards from './components/HomeCards'
+import AboutOurHospital from './components/AboutOurHospital'
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Navbar/>
       <Home/>
       <HomeCards/>
+      <AboutOurHospital/>
     </>
   )
 }
