@@ -1,7 +1,9 @@
 import Navbar from './components/Navbar'
 import './App.css'
 import Prenavbar from './components/Prenavbar'
-import Slider from 'react-slick'
+import Home from './pages/Home'
+import Carousel from './components/Carousel'
+import HomeCards from './components/HomeCards'
 
 
 
@@ -11,7 +13,8 @@ function App() {
     <>
       <Prenavbar/>
       <Navbar/>
-      <Slider/>
+      <Home/>
+      <HomeCards/>
     </>
   )
 }
