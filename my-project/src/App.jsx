@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Carousel from './components/Carousel'
 import HomeCards from './components/HomeCards'
 import AboutOurHospital from './components/AboutOurHospital'
+import Services from './components/ServicesSlider'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Home/>
       <HomeCards/>
       <AboutOurHospital/>
+      <Services/>
     </>
   )
 }

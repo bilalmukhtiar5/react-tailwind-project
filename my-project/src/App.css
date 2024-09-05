@@ -64,3 +64,11 @@
   height: 100%;
   object-fit: cover;
 }
+
+.background-cover {
+  background-image: url(./assets/images/service_curves.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
