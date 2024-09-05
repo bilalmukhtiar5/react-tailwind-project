@@ -29,7 +29,11 @@ const HomeCards = () => {
                 </p>
                 <button className='bg-slate-300 px-10 mt-4 rounded-lg py-2 flex items-center justify-center'>
                     Click Here
-                    <FaArrowRightLong className='inline-block ml-2'/>
+                    <FaArrowRightLong className='inline-block ml-2' style={{
+      position: 'absolute',
+      top: '20px',
+      right: '20px',
+    }}/>
                 </button>
             </div>
 

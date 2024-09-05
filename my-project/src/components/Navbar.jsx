@@ -8,10 +8,30 @@ const NavBar = () => {
 
     const navItems = [
         { link: "Home", path: "home" },
-        { link: "Patient Information", path: "patient information" },
-        { link: "Health Care and Professionals", path: "health care and professionals" },
+        { link: "Patient Information", path: "patient information",
+            submenu: [
+                {link: "General info", path: "general-info"},
+                {link: "Appointments", path: "appointments"},
+                {link: "Billing", path: "billing"},
+
+            ]
+         },
+        { link: "Health Care and Professionals", path: "health care and professionals",
+            submenu: [
+                { link: "Downloads", path: "forms" },
+                { link: "Guides", path: "guides" },
+                { link: "Brochures", path: "brochures" },
+            ]
+         },
         { link: "Downloads", path: "how it works" },
-        { link: "Join Us", path: "contact" },
+        { link: "Join Us", path: "contact",
+            submenu: [
+                {link:"Careers", path: "careers"},
+                {link:"Volunteers", path: "volunteers"},
+                {link:"Internships", path: "internships"},
+
+            ]
+         },
     ];
 
     const toggleDropdown = () => {
@@ -59,17 +79,19 @@ const NavBar = () => {
                     </div>
 
                     {/* Language and Sign-Up */}
-                    {/* <div className='flex items-center space-x-12'>
+                    <div className='flex items-center space-x-12'>
                         <a href='#' className='hidden lg:flex items-center hover:text-secondary'>
                             <GrLanguage className='mr-2' />
                             <span>Languages</span>
                         </a>
-                        <button className='bg-neutral-200 py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-600'>
+                        <button className='bg-slate-600 text-white py-2 px-4 transition-all duration-300 rounded hover:text-white 
+                        hover:bg-indigo-600'>
                             Sign Up
                         </button>
-                    </div> */}
+                    </div>
                 </div>
             </div>
+            
         </nav>
     );
 };
