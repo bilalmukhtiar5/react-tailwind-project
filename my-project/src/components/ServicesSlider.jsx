@@ -26,7 +26,7 @@ const SliderHome = () => {
         );
       }
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         arrow:true,
         slidesToShow: 3,
@@ -76,48 +76,76 @@ const data = [
   {
     name: `Dermatology`,
     img: `/card-icons/dermatology.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Medical department in a hospital is responsible for providing general medical care to patients, includes diagnosing & treating medical conditions.`
   },
   {
-    name: `Medical`,
+    name: `Emergency Services`,
     img: `/card-icons/siren.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Emergency services in a hospital are a vital part of the healthcare system. 
+    They provide urgent care to patients who are experiencing a medical emergency.`
   },
   {
-    name: `Dermatology`,
+    name: `Endocrinology`,
     img: `/card-icons/adrenal-gland.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Medical department in a hospital is responsible for providing general medical care to patients, 
+                                includes diagnosing & treating medical conditions.`
   },
   {
-    name: `Neurosurgery`,
+    name: `Family Medicine`,
     img: `/card-icons/brain.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Family medicine is a medical specialty that provides comprehensive health care for people of all ages. 
+    Family physicians, also known as family doctors.`
   },
   {
-    name: `Cardiology`,
+    name: `Gastroentrology`,
     img: `/card-icons/gastroenterology.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Medical department in a hospital is responsible for providing general medical care to patients,
+     includes diagnosing & treating medical conditions.`
   },
   {
-    name: `Dermatology`,
+    name: `Medicine`,
     img: `/card-icons/medicine.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Medical department in a hospital is responsible for providing general medical care to patients,
+     includes diagnosing & treating medical conditions.`
   },
   {
     name: `Medical`,
     img: `/card-icons/neurology.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Medical department in a hospital is responsible for providing general medical care to patients,
+     includes diagnosing & treating medical conditions.`
   },
   {
-    name: `Dermatology`,
+    name: `Nehprology`,
     img: `/card-icons/palytime.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
+    review: `Medical department in a hospital is responsible for providing general medical care to patients,
+     includes diagnosing & treating medical conditions.`
   },
   {
-    name: `Neurosurgery`,
+    name: `Neurology`,
     img: `/card-icons/pulmonology.png`,
-    review: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`
-  }
+    review: `Medical department in a hospital is responsible for providing general medical care to patients,
+     includes diagnosing & treating medical conditions.`
+  },
+  {
+    name: `Peadriatic`,
+    img: `/card-icons/pulmonology.png`,
+    review: `The Department of Pediatrics and Child Health at LRH is committed to providing state-of-the-art clinical services and quality care to children.`
+  },
+  {
+    name: `psychaitry`,
+    img: `/card-icons/pulmonology.png`,
+    review: `The Department of Psychiatry MTI LRH Peshawar has on board three full time psychiatrists and two full time psychologists.`
+  },
+  {
+    name: `Pumonology`,
+    img: `/card-icons/pulmonology.png`,
+    review: `Medical department in a hospital is responsible for providing general medical care to patients, includes diagnosing & treating medical conditions.`
+  },
+  {
+    name: 'Rheumatology',
+    img: '/card-icons/pulmonology.png',
+    review:'Medical department in a hospital is responsible for providing general medical care to patients, includes diagnosing & treating medical conditions.'
+  },
 ];
 
 export default SliderHome;

@@ -5,7 +5,7 @@ import HomeCards from './components/HomeCards'
 import AboutOurHospital from './components/AboutOurHospital'
 import Services from './components/ServicesSlider'
 import Carousel from './components/Carousel'
-
+import GoogleBusiness from './components/googleBusiness'
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
       <HomeCards/>
       <AboutOurHospital/>
       <Services/>
+      <GoogleBusiness/>
     </>
   )
 }
