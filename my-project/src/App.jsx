@@ -1,11 +1,10 @@
 import Navbar from './components/Navbar'
 import './App.css'
 import Prenavbar from './components/Prenavbar'
-import Home from './pages/Home'
-import Carousel from './components/Carousel'
 import HomeCards from './components/HomeCards'
 import AboutOurHospital from './components/AboutOurHospital'
 import Services from './components/ServicesSlider'
+import Carousel from './components/Carousel'
 
 
 
@@ -15,7 +14,7 @@ function App() {
     <>
       <Prenavbar/>
       <Navbar/>
-      <Home/>
+      <Carousel/>
       <HomeCards/>
       <AboutOurHospital/>
       <Services/>
