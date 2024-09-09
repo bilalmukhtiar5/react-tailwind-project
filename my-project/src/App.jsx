@@ -6,6 +6,8 @@ import AboutOurHospital from './components/AboutOurHospital'
 import Services from './components/ServicesSlider'
 import Carousel from './components/Carousel'
 import GoogleBusiness from './components/googleBusiness'
+import OurTeam from './components/OurTeam'
+import BackgroundSection from './components/BackgroundSection'
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
       <AboutOurHospital/>
       <Services/>
       <GoogleBusiness/>
+      <OurTeam/>
+      <BackgroundSection/>
+      
     </>
   )
 }

@@ -26,7 +26,7 @@ const Prenavbar = () => {
       </div>
 
       {/* Social Icons */}
-      <div className='flex items-center space-x-3 w-full sm:w-auto sm:ml-auto mt-2 sm:mt-0'>
+      <div className='flex items-center space-x-3 w-full sm:w-auto sm:ml-auto mt-2 sm:mt-0 mx-5'>
         <a href="#"><FaYoutube color='#21cdc0' /></a>
         <a href="#"><FaFacebook color='#21cdc0' /></a>
         <a href="#"><FiInstagram color='#21cdc0' /></a>
