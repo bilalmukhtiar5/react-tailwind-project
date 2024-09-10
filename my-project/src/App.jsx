@@ -9,6 +9,9 @@ import GoogleBusiness from './components/googleBusiness'
 import OurTeam from './components/OurTeam'
 import BackgroundSection from './components/BackgroundSection'
 
+import HealthDataCards from './components/HealthDataCards'
+import InspiringStories from './components/InspiringStories'
+import StoriesSlider from './components/StoriesSlider'
 
 function App() {
 
@@ -23,6 +26,12 @@ function App() {
       <GoogleBusiness/>
       <OurTeam/>
       <BackgroundSection/>
+      <HealthDataCards/>
+      <InspiringStories/>
+      <StoriesSlider/>
+      
+      
+      
       
     </>
   )

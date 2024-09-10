@@ -17,6 +17,9 @@ import { Navigation } from 'swiper/modules';
 export default function App() {
   return (
     <>
+    <div className='lg:display:none'>
+
+    
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
             <img src={Slider5} alt="" />
@@ -27,6 +30,7 @@ export default function App() {
         
         
       </Swiper>
+      </div>
     </>
   );
 }

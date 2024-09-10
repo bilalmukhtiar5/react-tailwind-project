@@ -5,14 +5,14 @@ import ReactPlayer from 'react-player';
 const AboutOurHospital = () => {
     return (
         <>
-            <div className='max-w-[1320px] py-20 mx-auto grid lg:grid-cols-2 md:grid-cols-1 gap-10 px-4 sm:px-6'>
+            <div className='max-w-[1320px] py-20 mx-auto flex flex-col lg:flex-row justify-between gap-10 px-4 container'>
                 {/* Text Section */}
-                <div>
+                <div className='flex-1'>
                     {/* Icon and Heading Row */}
                     <div className='flex items-center mb-6'>
                         <FaUserDoctor className='text-black w-[30px] h-[30px] mr-4' />
                         <h3 className='text-4xl font-bold text-black'>
-                            About Our Hospital
+                            ABOUT OUR HOSPITAL
                         </h3>
                     </div>
 
@@ -39,8 +39,9 @@ const AboutOurHospital = () => {
                         </div>
                     </div>
                 </div>
+                
                 {/* Opening Hours Card */}
-                <div className='border rounded-lg p-6'>
+                <div className='flex-1 bg-gray-100 rounded-lg p-6'>
                     <div className='mb-10'>
                         <p>We will work with you to develop individualized care plans, including management of chronic diseases.
                             If we cannot assist, we can provide referrals or advice about the type of practitioner you require.
