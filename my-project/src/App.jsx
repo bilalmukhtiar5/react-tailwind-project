@@ -8,10 +8,10 @@ import Carousel from './components/Carousel'
 import GoogleBusiness from './components/googleBusiness'
 import OurTeam from './components/OurTeam'
 import BackgroundSection from './components/BackgroundSection'
-
 import HealthDataCards from './components/HealthDataCards'
 import InspiringStories from './components/InspiringStories'
 import StoriesSlider from './components/StoriesSlider'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -29,6 +29,7 @@ function App() {
       <HealthDataCards/>
       <InspiringStories/>
       <StoriesSlider/>
+      <Footer/>
       
       
       
