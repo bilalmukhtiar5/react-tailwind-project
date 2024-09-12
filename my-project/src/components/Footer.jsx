@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Contacts */}
-        <div className='rounded-md text-center bg-slate-50 w-full h-auto text-black p-6'>
+        <div className='rounded-md text-center bg-slate-50 w-[300px] h-auto text-black p-6'>
           <h2 className='text-lg font-bold'>Quick Contacts</h2>
           <p className='mt-4'>If you have any questions or need help, feel free to contact us for medical assistance.</p>
           <div className='flex items-center justify-center mt-4'>
