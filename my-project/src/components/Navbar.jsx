@@ -24,6 +24,8 @@ const NavBar = () => {
             ]
          },
         { link: "Downloads", path: "how it works" },
+        { link: "Downloads", path: "how it works" },
+        { link: "Downloads", path: "how it works" },
         { link: "Join Us", path: "contact",
             submenu: [
                 {link:"Careers", path: "careers"},

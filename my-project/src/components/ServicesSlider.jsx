@@ -32,8 +32,8 @@ const SliderHome = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: false,
-        // speed: 5000,
-        // autoplaySpeed: 5000,
+        speed: 5000,
+        autoplaySpeed: 5000,
         cssEase: "linear",
         nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
@@ -43,7 +43,7 @@ const SliderHome = () => {
   return (
     <div className='w-2/3 m-auto bg-cover'>
       <div className="mt-20">
-        <h1 className='text-center text-2xl'>Administering healthcare provisions to the most gravely afflicted members of our community.</h1>
+        <h1 className='text-center text-4xl px-10'>Administering healthcare provisions to the most gravely afflicted members of our community.</h1>
         <p className='text-center my-3'>Tertiary care hospital: Where expertise meets complexity to tackle the toughest medical challenges.</p>
         <Slider {...settings}>
           {data.map((d) => (

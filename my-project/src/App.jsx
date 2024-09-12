@@ -3,7 +3,7 @@ import './App.css'
 import Prenavbar from './components/Prenavbar'
 import HomeCards from './components/HomeCards'
 import AboutOurHospital from './components/AboutOurHospital'
-import Services from './components/ServicesSlider'
+
 import Carousel from './components/Carousel'
 import GoogleBusiness from './components/googleBusiness'
 import OurTeam from './components/OurTeam'
@@ -12,6 +12,8 @@ import HealthDataCards from './components/HealthDataCards'
 import InspiringStories from './components/InspiringStories'
 import StoriesSlider from './components/StoriesSlider'
 import Footer from './components/Footer'
+
+import ServicesSlider from './components/ServicesSlider'
 
 function App() {
 
@@ -22,7 +24,7 @@ function App() {
       <Carousel/>
       <HomeCards/>
       <AboutOurHospital/>
-      <Services/>
+      <ServicesSlider/>
       <GoogleBusiness/>
       <OurTeam/>
       <BackgroundSection/>
